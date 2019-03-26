@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		025FDD671973EEA479BBFD75 /* Pods_fire_evacuation_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C97E16CEE4AA1713B1969E7 /* Pods_fire_evacuation_app.framework */; };
 		892BDFD5207B48FB009C0541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BDFD4207B48FB009C0541 /* AppDelegate.swift */; };
-		892BDFD7207B48FB009C0541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892BDFD6207B48FB009C0541 /* ViewController.swift */; };
 		892BDFDA207B48FB009C0541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892BDFD8207B48FB009C0541 /* Main.storyboard */; };
 		892BDFDC207B48FB009C0541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892BDFDB207B48FB009C0541 /* Assets.xcassets */; };
 		892BDFDF207B48FB009C0541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892BDFDD207B48FB009C0541 /* LaunchScreen.storyboard */; };
+		892E44BD207B4A0A00683378 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892E44BC207B4A0A00683378 /* Model.swift */; };
+		892E44BF207B538A00683378 /* BuildingSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892E44BE207B538A00683378 /* BuildingSingleton.swift */; };
+		892E44C1207B53A500683378 /* initializeBuildings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892E44C0207B53A500683378 /* initializeBuildings.swift */; };
+		892E44C4207C4CD700683378 /* homePage_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892E44C3207C4CD700683378 /* homePage_ViewController.swift */; };
+		892E44CE207C610E00683378 /* ShowFEM_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892E44CD207C610E00683378 /* ShowFEM_ViewController.swift */; };
+		892EFA12207C977700EBF625 /* switchLocation_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892EFA11207C977700EBF625 /* switchLocation_ViewController.swift */; };
+		892EFA18207E310900EBF625 /* SearchByFEM_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892EFA17207E310900EBF625 /* SearchByFEM_ViewController.swift */; };
+		893C7DEC2085A830008F941F /* EditFEM_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7DEB2085A830008F941F /* EditFEM_ViewController.swift */; };
+		893C7DEF2086EE46008F941F /* EditSFEM_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7DEE2086EE46008F941F /* EditSFEM_ViewController.swift */; };
+		893C7DF12086F49E008F941F /* AddFEM_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7DF02086F49E008F941F /* AddFEM_ViewController.swift */; };
+		893C7DF42086F611008F941F /* AddSFEM_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7DF32086F611008F941F /* AddSFEM_ViewController.swift */; };
+		893C7DF820873FA5008F941F /* SelectHazardRoom_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7DF720873FA5008F941F /* SelectHazardRoom_ViewController.swift */; };
+		893C7DFA20877FD7008F941F /* EditHazard_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C7DF920877FD7008F941F /* EditHazard_ViewController.swift */; };
+		893D3959208418E90003C749 /* SearchBySFEM_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D3958208418E90003C749 /* SearchBySFEM_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		892BDFD1207B48FB009C0541 /* fire_evacuation_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fire_evacuation_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		892BDFD4207B48FB009C0541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		892BDFD6207B48FB009C0541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		892BDFD9207B48FB009C0541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		892BDFDB207B48FB009C0541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		892BDFDE207B48FB009C0541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		892BDFE0207B48FB009C0541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892E44BC207B4A0A00683378 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		892E44BE207B538A00683378 /* BuildingSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingSingleton.swift; sourceTree = "<group>"; };
+		892E44C0207B53A500683378 /* initializeBuildings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initializeBuildings.swift; sourceTree = "<group>"; };
+		892E44C3207C4CD700683378 /* homePage_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage_ViewController.swift; sourceTree = "<group>"; };
+		892E44CD207C610E00683378 /* ShowFEM_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFEM_ViewController.swift; sourceTree = "<group>"; };
+		892EFA11207C977700EBF625 /* switchLocation_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switchLocation_ViewController.swift; sourceTree = "<group>"; };
+		892EFA17207E310900EBF625 /* SearchByFEM_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByFEM_ViewController.swift; sourceTree = "<group>"; };
+		893C7DEB2085A830008F941F /* EditFEM_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFEM_ViewController.swift; sourceTree = "<group>"; };
+		893C7DEE2086EE46008F941F /* EditSFEM_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSFEM_ViewController.swift; sourceTree = "<group>"; };
+		893C7DF02086F49E008F941F /* AddFEM_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFEM_ViewController.swift; sourceTree = "<group>"; };
+		893C7DF32086F611008F941F /* AddSFEM_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSFEM_ViewController.swift; sourceTree = "<group>"; };
+		893C7DF720873FA5008F941F /* SelectHazardRoom_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectHazardRoom_ViewController.swift; sourceTree = "<group>"; };
+		893C7DF920877FD7008F941F /* EditHazard_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHazard_ViewController.swift; sourceTree = "<group>"; };
+		893D3958208418E90003C749 /* SearchBySFEM_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBySFEM_ViewController.swift; sourceTree = "<group>"; };
+		9C97E16CEE4AA1713B1969E7 /* Pods_fire_evacuation_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fire_evacuation_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DF5E006284DA27C7295985 /* Pods-fire_evacuation_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fire_evacuation_app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fire_evacuation_app/Pods-fire_evacuation_app.debug.xcconfig"; sourceTree = "<group>"; };
+		F4E830691B46FD801D04753D /* Pods-fire_evacuation_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fire_evacuation_app.release.xcconfig"; path = "Pods/Target Support Files/Pods-fire_evacuation_app/Pods-fire_evacuation_app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025FDD671973EEA479BBFD75 /* Pods_fire_evacuation_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AD03EEC8C6C85A547CAB9B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7DF5E006284DA27C7295985 /* Pods-fire_evacuation_app.debug.xcconfig */,
+				F4E830691B46FD801D04753D /* Pods-fire_evacuation_app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85982BAEB954ED81C42FDC42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C97E16CEE4AA1713B1969E7 /* Pods_fire_evacuation_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		892BDFC8207B48FB009C0541 = {
 			isa = PBXGroup;
 			children = (
 				892BDFD3207B48FB009C0541 /* fire_evacuation_app */,
 				892BDFD2207B48FB009C0541 /* Products */,
+				4AD03EEC8C6C85A547CAB9B2 /* Pods */,
+				85982BAEB954ED81C42FDC42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +105,82 @@
 			isa = PBXGroup;
 			children = (
 				892BDFD4207B48FB009C0541 /* AppDelegate.swift */,
-				892BDFD6207B48FB009C0541 /* ViewController.swift */,
-				892BDFD8207B48FB009C0541 /* Main.storyboard */,
 				892BDFDB207B48FB009C0541 /* Assets.xcassets */,
+				892BDFD8207B48FB009C0541 /* Main.storyboard */,
 				892BDFDD207B48FB009C0541 /* LaunchScreen.storyboard */,
 				892BDFE0207B48FB009C0541 /* Info.plist */,
+				893D395520839D4B0003C749 /* ViewController */,
+				892E44C3207C4CD700683378 /* homePage_ViewController.swift */,
+				892EFA11207C977700EBF625 /* switchLocation_ViewController.swift */,
+				893D395720839EAD0003C749 /* Show_ViewController */,
+				892E44CD207C610E00683378 /* ShowFEM_ViewController.swift */,
+				893D395620839E960003C749 /* SearchBy_ViewController */,
+				892EFA17207E310900EBF625 /* SearchByFEM_ViewController.swift */,
+				893D3958208418E90003C749 /* SearchBySFEM_ViewController.swift */,
+				893C7DED2085A934008F941F /* EditFEM_ViewController */,
+				893C7DEB2085A830008F941F /* EditFEM_ViewController.swift */,
+				893C7DEE2086EE46008F941F /* EditSFEM_ViewController.swift */,
+				893C7DF22086F4A4008F941F /* AddFEM_ViewController */,
+				893C7DF02086F49E008F941F /* AddFEM_ViewController.swift */,
+				893C7DF32086F611008F941F /* AddSFEM_ViewController.swift */,
+				893C7DFB208845F0008F941F /* Hazard_ViewController */,
+				893C7DF720873FA5008F941F /* SelectHazardRoom_ViewController.swift */,
+				893C7DF920877FD7008F941F /* EditHazard_ViewController.swift */,
+				892E44C2207B75A100683378 /* Logic */,
+				892E44BC207B4A0A00683378 /* Model.swift */,
+				892E44BE207B538A00683378 /* BuildingSingleton.swift */,
+				892E44C0207B53A500683378 /* initializeBuildings.swift */,
 			);
 			path = fire_evacuation_app;
+			sourceTree = "<group>";
+		};
+		892E44C2207B75A100683378 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		893C7DED2085A934008F941F /* EditFEM_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EditFEM_ViewController;
+			sourceTree = "<group>";
+		};
+		893C7DF22086F4A4008F941F /* AddFEM_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddFEM_ViewController;
+			sourceTree = "<group>";
+		};
+		893C7DFB208845F0008F941F /* Hazard_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hazard_ViewController;
+			sourceTree = "<group>";
+		};
+		893D395520839D4B0003C749 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		893D395620839E960003C749 /* SearchBy_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchBy_ViewController;
+			sourceTree = "<group>";
+		};
+		893D395720839EAD0003C749 /* Show_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Show_ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 892BDFE3207B48FB009C0541 /* Build configuration list for PBXNativeTarget "fire_evacuation_app" */;
 			buildPhases = (
+				0A253F2B84BAE7CCDA9C5DC0 /* [CP] Check Pods Manifest.lock */,
 				892BDFCD207B48FB009C0541 /* Sources */,
 				892BDFCE207B48FB009C0541 /* Frameworks */,
 				892BDFCF207B48FB009C0541 /* Resources */,
+				3FFA24B1DF4DDE8985BCAA0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +251,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A253F2B84BAE7CCDA9C5DC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fire_evacuation_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FFA24B1DF4DDE8985BCAA0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fire_evacuation_app/Pods-fire_evacuation_app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fire_evacuation_app/Pods-fire_evacuation_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		892BDFCD207B48FB009C0541 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				892BDFD7207B48FB009C0541 /* ViewController.swift in Sources */,
+				892E44BD207B4A0A00683378 /* Model.swift in Sources */,
+				893C7DF42086F611008F941F /* AddSFEM_ViewController.swift in Sources */,
+				893C7DF12086F49E008F941F /* AddFEM_ViewController.swift in Sources */,
+				892EFA12207C977700EBF625 /* switchLocation_ViewController.swift in Sources */,
+				892E44C1207B53A500683378 /* initializeBuildings.swift in Sources */,
+				893D3959208418E90003C749 /* SearchBySFEM_ViewController.swift in Sources */,
 				892BDFD5207B48FB009C0541 /* AppDelegate.swift in Sources */,
+				893C7DEC2085A830008F941F /* EditFEM_ViewController.swift in Sources */,
+				892EFA18207E310900EBF625 /* SearchByFEM_ViewController.swift in Sources */,
+				892E44C4207C4CD700683378 /* homePage_ViewController.swift in Sources */,
+				893C7DFA20877FD7008F941F /* EditHazard_ViewController.swift in Sources */,
+				892E44CE207C610E00683378 /* ShowFEM_ViewController.swift in Sources */,
+				893C7DF820873FA5008F941F /* SelectHazardRoom_ViewController.swift in Sources */,
+				892E44BF207B538A00683378 /* BuildingSingleton.swift in Sources */,
+				893C7DEF2086EE46008F941F /* EditSFEM_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,35 +451,31 @@
 		};
 		892BDFE4207B48FB009C0541 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DF5E006284DA27C7295985 /* Pods-fire_evacuation_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = fire_evacuation_app/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ucl-team-8.fire-evacuation-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		892BDFE5207B48FB009C0541 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E830691B46FD801D04753D /* Pods-fire_evacuation_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = fire_evacuation_app/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ucl-team-8.fire-evacuation-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
